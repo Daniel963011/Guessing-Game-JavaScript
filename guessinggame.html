@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My JavaScript Guessing Game</title>
+    <link rel = "stylesheet" href="guess_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+</head>
+<body>
+    <a href="index.html" class="btn btn-secondary btn-xl mt-3">Take me back!</a><br>
+    <div class="container1">
+        <div class="container_wrapper">
+            <button type = "button" class="btn btn_again">Wanna try again?</button>
+            <p>Between 1 and 20</p>
+        </div>
+        <h2>Take a guess!</h2>
+        <p class="hide">?</p>
+        <p class="message">Start guessing...</p>
+
+        <div class="number_data">
+            <form>
+                <input type="number" placeholder="Enter a value" class="input_number">
+                <button type = "button" class="btn btn_check"> Check your guess!</button>
+            </form>
+
+            <div class="content">
+                <p>You have <span class="score"> 20</span> tries left</p>
+                <p>You have <span class="high_score"> 20 </span>tries total</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src = "guess_logic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
